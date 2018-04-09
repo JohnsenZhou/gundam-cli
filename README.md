@@ -23,10 +23,6 @@ gundam new <project-name>
 - 是否进行`git push`操作（若选是，则进行下一项操作，否则跳出，开发人员后续手动进行`git`操作）
 - 输入新项目远端`git`地址
 
-具体操作流程可参见下图：
-
-![Alt text](http://os9glxm8s.bkt.clouddn.com/gundam-cli.gif)
-
 ## API
 ```
   Usage: gundam <command> [options]
