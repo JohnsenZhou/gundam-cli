@@ -1,17 +1,17 @@
-# 317hu-cli
+# gundam-cli
 
-> 317hu-cli 前端项目自动创建提交工具1.0.0版本
+> gundam-cli 前端项目自动创建提交工具1.0.0版本
 
 ## 安装
 ```
-npm install -g 317hu-cli
+npm install -g gundam-cli
 ```
-> 部分Mac上需执行 `sudo npm install -g 317hu-cli`
+> 部分Mac上需执行 `sudo npm install -g gundam-cli`
 
 ## 使用
 
 ```
-317hu new <project-name>
+gundam new <project-name>
 ```
 
 主要有以下选项：
@@ -25,11 +25,11 @@ npm install -g 317hu-cli
 
 具体操作流程可参见下图：
 
-![Alt text](http://os9glxm8s.bkt.clouddn.com/317hu-cli.gif)
+![Alt text](http://os9glxm8s.bkt.clouddn.com/gundam-cli.gif)
 
 ## API
 ```
-  Usage: 317hu <command> [options]
+  Usage: gundam <command> [options]
 
   Options:
 

@@ -1,13 +1,13 @@
 {
-  "name": "317hu-cli",
-  "version": "1.0.1",
-  "description": "A cli project of 317hu",
+  "name": "gundam-cli",
+  "version": "1.0.0",
+  "description": "A cli project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "317hu": "bin/index.js"
+    "gundam": "bin/index.js"
   },
   "keywords": [
     "cli"
