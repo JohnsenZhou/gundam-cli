@@ -12,7 +12,14 @@
   "keywords": [
     "cli"
   ],
-  "author": "JohnsenZhou",
+  "author": {
+    "name": "JohnsenZhou",
+    "email": "jiajunzhou1994@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnsenZhou/gundam-cli"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.3.2",

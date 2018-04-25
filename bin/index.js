@@ -24,32 +24,16 @@ program
   })
 
 program
-  .command('new <string>')
+  .command('new <string> [otherDirs...]')
   .description('Creates a new application')
-  .action(string => {
+  .action((string, otherDirs) => {
     const _projectPath = projectPath(string)
     const isProjectRepet = fs.existsSync(_projectPath)
     if (isProjectRepet) {
       spinner.warn(chalk.red(`The project named ${chalk.yellow(string)} is existed, please use a another name.\n`))
       return
     }
-    spinner.start()
-    download('gitlab:gitlab.317hu.com:dev-web/frontend-react-projects', _projectPath, { clone: true }, (err) => {
-      if (err) {
-        console.log()
-        console.log(err)
-        spinner.fail(chalk.red('Error downloading template, please contact the administrator.'))
-        return
-      }
-      spinner.stop()
-      fs.readJson(`${_projectPath}/package.json`, (err, data) => {
-        if (err) {
-          console.log(chalk.red(err))
-          return
-        }
-        createFn(data, _projectPath, string)
-      })
-    })
+    createFn(_projectPath, string)
   })
 
 program.parse(process.argv)
