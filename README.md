@@ -1,4 +1,4 @@
-# gundam-cli
+# gundam-cli &middot;  [![PyPI](https://img.shields.io/pypi/status/Django.svg)]()  [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/JohnsenZhou/gundam-cli/blob/master/LICENSE)
 
 [以中文查看](https://github.com/JohnsenZhou/gundam-cli/blob/master/README_zh-CN.md)
 

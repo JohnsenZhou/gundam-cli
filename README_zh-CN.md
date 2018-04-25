@@ -1,4 +1,4 @@
-# gundam-cli
+# gundam-cli &middot;  [![PyPI](https://img.shields.io/pypi/status/Django.svg)]()  [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/JohnsenZhou/gundam-cli/blob/master/LICENSE)
 
 > gundam-cli 前端项目自动创建提交工具1.0.0版本
 
