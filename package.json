@@ -10,7 +10,9 @@
     "gundam": "bin/index.js"
   },
   "keywords": [
-    "cli"
+    "cli",
+    "gundam",
+    "generate"
   ],
   "author": {
     "name": "JohnsenZhou",
