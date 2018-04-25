@@ -1,27 +1,47 @@
 # gundam-cli
 
-> gundam-cli 前端项目自动创建提交工具1.0.0版本
+[以中文查看](https://github.com/JohnsenZhou/gundam-cli/blob/master/README_zh-CN.md)
 
-## 安装
+> A front-end project automatically creates submission tool.
+
+## Installation
 ```
 npm install -g gundam-cli
 ```
-> 部分Mac上需执行 `sudo npm install -g gundam-cli`
 
-## 使用
+## Usage
+
+### Create a new project
 
 ```
 gundam new <project-name>
 ```
 
-主要有以下选项：
+There are mainly the following options：
 
-- 项目名称（默认`project-name`）
-- 项目版本号（默认为脚手架的版本号）
-- 项目描述
-- 开发人员
-- 是否进行`git push`操作（若选是，则进行下一项操作，否则跳出，开发人员后续手动进行`git`操作）
-- 输入新项目远端`git`地址
+- Repository type(github、gitlab)
+- The short hand repository string to download the repository from:
+	- github: `owner/name`, such as `JohnsenZhou/gundam-cli`
+	- gitlab: `custom.com:owner/name`, such as `gitlab.johnsenzhou.com:example/test-projects`
+- Project name(default `project-name`)
+- Project version number(默认为模板的版本号)
+- Project description
+- The developer name
+- Whether to perform `git push` operations(If you select Yes, proceed to the next operation. Otherwise, the developer will continue to manually perform `git` operations.)
+- Input the new `git remote` address url
+
+## Development
+
+### Start by cloning the Git project to your local hard drive:
+```
+$ git clone https://github.com/JohnsenZhou/gundam-cli.git
+```
+
+### Link `gundam-cli` to your development version
+```
+$ cd gundam-cli
+$ npm link
+```
 
 ## API
 ```
@@ -37,3 +57,8 @@ gundam new <project-name>
     new <string>   Creates a new application
 ```
 
+## Why gundam
+> Gundam’s mech is nimble and powerful, Equipped with a super laser sword.
+
+## License
+[MIT](https://github.com/JohnsenZhou/gundam-cli/blob/master/LICENSE)
