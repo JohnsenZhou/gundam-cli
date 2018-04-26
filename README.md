@@ -24,7 +24,7 @@ There are mainly the following options：
 	- github: `owner/name`, such as `JohnsenZhou/gundam-cli`
 	- gitlab: `custom.com:owner/name`, such as `gitlab.johnsenzhou.com:example/test-projects`
 - Project name(default `project-name`)
-- Project version number(默认为模板的版本号)
+- Project version number(default the version number of the template)
 - Project description
 - The developer name
 - Whether to perform `git push` operations(If you select Yes, proceed to the next operation. Otherwise, the developer will continue to manually perform `git` operations.)
