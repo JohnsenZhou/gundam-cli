@@ -31,7 +31,8 @@ There are mainly the following options：
 - Input the new `git remote` address url
 
 As shown below:
-![](http://os9glxm8s.bkt.clouddn.com/gundam-cli.gif)
+
+[Content length exceeded, please click the link](http://os9glxm8s.bkt.clouddn.com/gundam-cli.gif)
 
 ## Development
 
