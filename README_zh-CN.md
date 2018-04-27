@@ -58,7 +58,7 @@ $ npm link
 ```
 
 ## 命名由来
-> Gundam 中文名译为高达，主要武器是一把激光剑，机动性强。
+> Gundam 中文名译为高达，主要武器是一把光束军刀和光束步枪并装备专用盾牌、超级火箭筒，机动性强。
 
 ## License
 [MIT](https://github.com/JohnsenZhou/gundam-cli/blob/master/LICENSE)
