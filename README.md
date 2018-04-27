@@ -30,6 +30,9 @@ There are mainly the following options：
 - Whether to perform `git push` operations(If you select Yes, proceed to the next operation. Otherwise, the developer will continue to manually perform `git` operations.)
 - Input the new `git remote` address url
 
+As shown below:
+![](https://user-gold-cdn.xitu.io/2018/4/26/16301035e0605cc3?w=960&h=500&f=gif&s=9442806)
+
 ## Development
 
 ### Start by cloning the Git project to your local hard drive:

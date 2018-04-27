@@ -26,6 +26,9 @@ gundam new <project-name>
 - 是否进行`git push`操作（若选是，则进行下一项操作，否则跳出，开发人员后续手动进行`git`操作）
 - 输入新项目远端`git`地址
 
+如下图所示：
+![](https://user-gold-cdn.xitu.io/2018/4/26/16301035e0605cc3?w=960&h=500&f=gif&s=9442806)
+
 ## 开发
 
 ### 克隆到本地
