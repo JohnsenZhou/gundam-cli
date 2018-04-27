@@ -31,7 +31,7 @@ There are mainly the following options：
 - Input the new `git remote` address url
 
 As shown below:
-![](https://user-gold-cdn.xitu.io/2018/4/26/16301035e0605cc3?w=960&h=500&f=gif&s=9442806)
+![](http://os9glxm8s.bkt.clouddn.com/gundam-cli.gif)
 
 ## Development
 

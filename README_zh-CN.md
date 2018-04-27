@@ -27,7 +27,7 @@ gundam new <project-name>
 - 输入新项目远端`git`地址
 
 如下图所示：
-![](https://user-gold-cdn.xitu.io/2018/4/26/16301035e0605cc3?w=960&h=500&f=gif&s=9442806)
+![](http://os9glxm8s.bkt.clouddn.com/gundam-cli.gif)
 
 ## 开发
 
